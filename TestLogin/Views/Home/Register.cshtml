@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+
+<form method="post" asp-controller="Home" asp-action="Register">
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">Email: </label>
+        <input type="email" id="UserName" name="Email" class="form-control" />
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">Password: </label>
+        <input type="password" id="Password" name="Password" class="form-control" />
+    </div>
+
+    <!-- Firstname input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">FirstName: </label>
+        <input type="text" id="FirstName" name="FirstName" class="form-control" />
+    </div>
+
+    <!-- Lastname input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">LastName: </label>
+        <input type="text" id="LastName" name="LastName" class="form-control" />
+    </div>
+
+    <!-- Mobile input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">Mobile: </label>
+        <input type="text" id="Mobile" name="Mobile" class="form-control" />
+    </div>
+
+    <!-- CountryID input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">CountryID: </label>
+        <input type="number" id="CountryID" name="CountryID" class="form-control" />
+    </div>
+
+    <!-- aID input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">aID: </label>
+        <input type="text" id="aID" name="aID" class="form-control" />
+    </div>
+
+    <!-- SignupIP input -->
+    <div class="form-outline mb-4">
+        <label class="form-label">SignupIP: </label>
+        <input type="text" id="SignupIP" name="SignupIP" class="form-control" />
+    </div>
+
+
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Register</button>
+</form>
